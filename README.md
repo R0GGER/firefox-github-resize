@@ -43,7 +43,7 @@ There are several existing extensions in the same space. All of them are essenti
 
 | Feature | **GitHub Resizer** | [Wide GitHub](https://addons.mozilla.org/firefox/addon/widegithub/)¹ | [Wide GitHub](https://addons.mozilla.org/firefox/addon/wide-github-chrome/)² | [Wider GitHub](https://addons.mozilla.org/firefox/addon/widergithub/)³ |
 | --- | :---: | :---: | :---: | :---: |
-| Width control | Yes, slider (0–100%) | On / off toggle | On / off toggle | Always on |
+| Width control | Yes, slider (0-100%) | On / off toggle | On / off toggle | Always on |
 | Stays identical to default on ≤ 1280 px screens | Yes | – | – | – |
 | Live updates, no reload | Yes | – | – | – |
 | Cross-device sync (`storage.sync`) | Yes | – | – | – |
