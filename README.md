@@ -1,6 +1,6 @@
 # GitHub Resizer
 
-Firefox extension that widens GitHub pages between the native **1280 px default** and the **full viewport**, in **1% steps**. The chosen value is persisted in both `browser.storage.local` and `browser.storage.sync`, so it follows you across devices when you are signed into a Firefox account.
+**Firefox extension** that widens GitHub pages between the native **1280 px default** and the **full viewport**, in **1% steps**. The chosen value is persisted in both `browser.storage.local` and `browser.storage.sync`, so it follows you across devices when you are signed into a Firefox account.
 
 >  In short: the existing extensions answer the question *"narrow or full width?"*. **GitHub Resizer** answers *"how wide?"*.
 
@@ -18,7 +18,7 @@ Firefox extension that widens GitHub pages between the native **1280 px default*
 
 GitHub's main container (`.container-xl`) is capped at 1280 px. On a 1440p or 4K monitor that leaves huge empty margins on the left and right of every repo, PR, issue and code view.
 
-**GitHub Resizer** adds a slider to the Firefox toolbar that lets you smoothly choose any width between GitHub's native default and the full width of your browser window - not just "on" or "off". The page reflows live, without a reload, on every open GitHub/Gist tab.
+GitHub Resizer adds a slider to the Firefox toolbar that lets you smoothly choose any width between GitHub's native default and the full width of your browser window - not just "on" or "off". The page reflows live, without a reload, on every open GitHub/Gist tab.
 
 The slider value is interpreted as *"how much of the extra space above the 1280 px default should be used"*:
 
