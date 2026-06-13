@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Resizer",
+  "version": "1.0.0",
+  "description": "Widen GitHub pages between the native 1280px default and the full viewport, in 1% steps.",
+  "homepage_url": "https://github.com/R0GGER/firefox-github-resize",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "github-resizer@rmeij.local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+
+  "action": {
+    "default_title": "GitHub Resizer",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "icons/icon.svg",
+      "96": "icons/icon.svg"
+    },
+    "theme_icons": [
+      { "light": "icons/icon-light.svg", "dark": "icons/icon.svg", "size": 48 },
+      { "light": "icons/icon-light.svg", "dark": "icons/icon.svg", "size": 96 }
+    ]
+  },
+
+  "permissions": ["storage"],
+
+  "host_permissions": [
+    "*://github.com/*",
+    "*://gist.github.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://github.com/*",
+        "*://gist.github.com/*"
+      ],
+      "js": ["content/content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
