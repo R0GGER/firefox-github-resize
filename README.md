@@ -41,7 +41,7 @@ On viewports up to 1280 px the extension produces **exactly the same layout as d
 
 There are several existing extensions in the same space. All of them are essentially a binary on/off toggle: either GitHub's max-width is removed entirely, or it isn't. GitHub Resizer takes a different approach.
 
-| Feature | **GitHub Resizer** | *[Wide GitHub](https://addons.mozilla.org/firefox/addon/widegithub/)*¹ | **[Wide GitHub](https://addons.mozilla.org/firefox/addon/wide-github-chrome/)**² | **[Wider GitHub](https://addons.mozilla.org/firefox/addon/widergithub/)**³ |
+| Feature | **GitHub Resizer** | [Wide GitHub](https://addons.mozilla.org/firefox/addon/widegithub/)¹ | [Wide GitHub](https://addons.mozilla.org/firefox/addon/wide-github-chrome/)² | [Wider GitHub](https://addons.mozilla.org/firefox/addon/widergithub/)³ |
 | --- | :---: | :---: | :---: | :---: |
 | Width control | Yes, slider (0–100%) | On / off toggle | On / off toggle | Always on |
 | Stays identical to default on ≤ 1280 px screens | Yes | – | – | – |
