@@ -6,11 +6,9 @@ Browser extension (Firefox **and** Chrome) that widens GitHub pages between the 
 
 ![GitHub Resizer in action](screenshots/screencast.gif)
 
-<sub>The toolbar popup - slider, presets and reset button. Firefox (left) and Chrome (right).</sub>
+<sub>The toolbar popup - slider, presets and reset button.</sub>
 
 <p align="center">
-  <img src="screenshots/image.png" alt="Firefox popup" height="320">
-  &nbsp;&nbsp;
   <img src="screenshots/chrome-ext.png" alt="Chrome popup" height="320">
 </p>
 
