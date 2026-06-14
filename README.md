@@ -6,13 +6,6 @@ Browser extension (Firefox **and** Chrome) that widens GitHub pages between the 
 
 ![GitHub Resizer in action](screenshots/screencast.gif)
 
-
-
-<p align="center">
-  The toolbar popup - slider, presets and reset button.</br></br>
-  <img src="screenshots/chrome-ext.png" alt="Chrome popup" height="320">
-</p>
-
 ---
 
 ## What it does
@@ -33,6 +26,8 @@ width = max(1280px, 1280px + slider/100 * (viewport - 1280px))
 | 25 %  | 1280 (viewport bound) | 1440             | 1920             |
 | 50 %  | 1280 (viewport bound) | 1600             | 2560             |
 | 100 % | 1280 (viewport bound) | 1920 (full)      | 3840 (full)      |
+
+![](screenshots/chrome-ext.png) 
 
 On viewports up to 1280 px the extension produces **exactly the same layout as default GitHub** - no narrowing, no crushed sidebars, no visual change at all.
 
