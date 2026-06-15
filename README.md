@@ -8,7 +8,7 @@ Browser extension (Firefox **and** Chrome) that widens GitHub pages between the 
 
 ### Addon / Extension
 **Firefox:** [addons.mozilla.org/firefox/addon/github-resizer](https://addons.mozilla.org/firefox/addon/github-resizer/) *(under review)*    
-**Chrome / Chromium / Edge / Brave:** [chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg](https://chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg) *(under review)*
+**Chrome / Chromium / Edge / Brave:** [chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg](https://chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg)
 
 ---
 
