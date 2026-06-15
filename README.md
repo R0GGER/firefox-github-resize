@@ -6,6 +6,10 @@ Browser extension (Firefox **and** Chrome) that widens GitHub pages between the 
 
 ![GitHub Resizer in action](screenshots/screencast.gif)
 
+### Addon / Extension
+**Firefox:** [addons.mozilla.org/firefox/addon/github-resizer](https://addons.mozilla.org/firefox/addon/github-resizer/) *(under review)*    
+**Chrome / Chromium / Edge / Brave:** [chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg](https://chromewebstore.google.com/detail/mipojddikhienkgpinpppjaaadkgmhlg) *(under review)*
+
 ---
 
 ## What it does
@@ -60,7 +64,7 @@ GitHub Resizer removes both limits. GitHub builds those modern pages with the Pr
 
 ### Firefox
 
-- Store: [addons.mozilla.org/firefox/addon/github-resizer](https://addons.mozilla.org/en-US/firefox/addon/github-resizer/) *(under review)*
+- Store: [addons.mozilla.org/firefox/addon/github-resizer](https://addons.mozilla.org/firefox/addon/github-resizer/) *(under review)*
 - Load unpacked for development:
   1. Open `about:debugging#/runtime/this-firefox`.
   2. **Load Temporary Add-on…** → pick any file inside `Firefox/`.
